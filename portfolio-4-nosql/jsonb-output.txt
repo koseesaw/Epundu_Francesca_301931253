@@ -1,0 +1,28 @@
+CREATE TABLE
+INSERT 0 1
+                                                                                                                                                                   document_data                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"city": "Lagos", "email": "adaeze.supermarket@example.com", "orders": [{"items": [{"quantity": 5, "unit_price": 78000, "product_name": "Premium Rice 50kg"}, {"quantity": 12, "unit_price": 14500, "product_name": "Vegetable Oil 5L"}], "total": 564000, "status": "Paid", "order_id": 1}], "full_name": "Adaeze Supermarket", "customer_id": 1}
+(1 row)
+
+   customer_name    | city  
+--------------------+-------
+ Adaeze Supermarket | Lagos
+(1 row)
+
+                                                                                                                                                                   document_data                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"city": "Lagos", "email": "adaeze.supermarket@example.com", "orders": [{"items": [{"quantity": 5, "unit_price": 78000, "product_name": "Premium Rice 50kg"}, {"quantity": 12, "unit_price": 14500, "product_name": "Vegetable Oil 5L"}], "total": 564000, "status": "Paid", "order_id": 1}], "full_name": "Adaeze Supermarket", "customer_id": 1}
+(1 row)
+
+ order_status 
+--------------
+ Paid
+(1 row)
+
+UPDATE 1
+                                                                                                                                                                   document_data                                                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {"city": "Enugu", "email": "adaeze.supermarket@example.com", "orders": [{"items": [{"quantity": 5, "unit_price": 78000, "product_name": "Premium Rice 50kg"}, {"quantity": 12, "unit_price": 14500, "product_name": "Vegetable Oil 5L"}], "total": 564000, "status": "Paid", "order_id": 1}], "full_name": "Adaeze Supermarket", "customer_id": 1}
+(1 row)
+

@@ -1,0 +1,11 @@
+                                                                QUERY PLAN                                                                 
+-------------------------------------------------------------------------------------------------------------------------------------------
+ Bitmap Heap Scan on products  (cost=57.53..534.59 rows=4805 width=34) (actual time=0.560..2.299 rows=4927 loops=1)
+   Recheck Cond: (stock_quantity < 100)
+   Heap Blocks: exact=417
+   ->  Bitmap Index Scan on idx_products_stock_quantity  (cost=0.00..56.33 rows=4805 width=0) (actual time=0.372..0.373 rows=4927 loops=1)
+         Index Cond: (stock_quantity < 100)
+ Planning Time: 6.158 ms
+ Execution Time: 3.460 ms
+(7 rows)
+

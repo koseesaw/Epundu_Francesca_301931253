@@ -1,0 +1,11 @@
+-- RetailConnect Nigeria
+-- Portfolio 2: Indexing and optimisation test
+-- Synthetic test records used to evaluate query plans
+
+INSERT INTO products (product_name, price, stock_quantity)
+SELECT 'Test Product ' || g,
+       (random() * 100000)::numeric(10,2),
+       (random() * 1000)::int
+FROM generate_series(1, 50000) AS g;
+
+ANALYZE products;

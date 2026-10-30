@@ -1,0 +1,6 @@
+                          QUERY PLAN                           
+---------------------------------------------------------------
+ Seq Scan on products  (cost=0.00..1042.12 rows=4805 width=34)
+   Filter: (stock_quantity < 100)
+(2 rows)
+
